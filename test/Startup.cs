@@ -37,6 +37,9 @@ namespace test
             services.AddTransient<IEmailSender, EmailSender>();
 
             services.AddMvc();
+
+            services.AddDbContext<BerichtContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("BerichtContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
