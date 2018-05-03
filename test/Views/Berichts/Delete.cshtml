@@ -11,6 +11,12 @@
     <h4>Bericht</h4>
     <hr />
     <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Content)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Datum)
+        </dd>
     </dl>
     
     <form asp-action="Delete">

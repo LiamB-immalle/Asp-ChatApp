@@ -30,7 +30,7 @@ namespace test.Controllers
                 bericht = bericht.Where(s => s.Content.Contains(contentSearchString));
             }
 
-            return View(await _context.Bericht.ToListAsync());
+            return View(await bericht.ToListAsync());
         }
 
         // GET: Berichts/Details/5
