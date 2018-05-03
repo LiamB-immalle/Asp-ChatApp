@@ -7,3 +7,6 @@ Het enige dat soort van werkt is het inloggen, hoewel dit geen voordelen geeft, 
 dingen niet in de DB terechtkomen om een of andere reden.
 
 Spoiler: deze items komen op de een of andere manier niet in de database terecht. (As of 3 may 2018 - 9:24)
+
+Update: 3 mei 2018 - 20:37
+fix in repo: https://github.com/LiamB-immalle/ChatApp
